@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="100" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="ground" tilewidth="32" tileheight="32">
+  <image source="grass-tiles-2-small.png" width="384" height="192"/>
+ </tileset>
+ <tileset firstgid="73" name="bushes" tilewidth="32" tileheight="32">
+  <image source="qubodup-bush_0.png" width="32" height="32"/>
+ </tileset>
+ <tileset firstgid="74" name="bushberries" tilewidth="32" tileheight="32">
+  <image source="qubodup-bush_berries_0.png" width="32" height="32"/>
+ </tileset>
+ <layer name="ground" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt17EOwiAUBVDm6qaDm36H7vr/f6QkJamGwaZaoJzhpGPhXR6vHUIIAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGzc7mXfsMvHfs4VrKlWa2R9H3M4jM9bBfvu2TW890fM41TBunrVWh6tz4e5eTwqz6M1c89Pmh/T/ljjveSl/jguzGNrSp2v3PwoXYuW67nUr+6rHmv3D7l5XnpNPfvmvnJ+16tJzCP9m+uP8qb9Eb+xWp/nT8GblZU=
+  </data>
+ </layer>
+ <layer name="maze" width="100" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt3UFqw0AQRFFfL77/gbLIKhA5GrlaU4b3oTbN0NOtD4Jgmzwfj8dTRERERERERESkOF9SET66wkdX/vJxJ6l72/pcvZePmT5X7+Vjps/Ve//zMfGOPOqfune1z/Q8K/fyMT8PH2t9pueZ8jGBe3/X+ei6l4+ue6/6uOt9mrz3E/bio2svPrr2SviYYLX/9PkUfGTOp+Ajcz7F3T4m3r+J93Ky/+ScfPDBxx4fZ1g9v6vPXXU+zvXhYw0+7qtPp2lfPrr25aNr3/TnH9Nzp9j93PmYmYePDLufe8LHUe6cO8Xu587HzDx8ZNj93K/6OIKPmTofXXU+uuorv49qmDtF2158dO3FR9der3ycgY+ZOh9ddT666v4+76rz0VXno6vu84+uOh9ddT666p/8/ZLV86t9dtT56NqXj659W30ckeqT6p+en4/3+vPBx131o0z3T92b6MMHH5P78HGO1PnUPCnSe/HxHnzwkX4vr6Ztnsm9+OCDj7yPXbTNk4KPLvjo4ooPmQ8fXeGjK7v//wd+4KMLPrp45eMT89dunxg+usJHV54PAAAAAAAAADjPN+YkrCs=
+  </data>
+ </layer>
+</map>
