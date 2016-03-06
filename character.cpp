@@ -60,8 +60,8 @@ void Character::takeDamage()
 void Character::update(float frameTime)
 {
     Entity::update(frameTime);
-
-    if (input->isKeyDown(UP_KEY))       // if up
+	
+	if (input->isKeyDown(UP_KEY))       // if up
     {
 		spriteData.y = spriteData.y - frameTime * SPEED;
         if (spriteData.y < 0)
@@ -83,4 +83,5 @@ void Character::update(float frameTime)
         this->flipHorizontal(true);
         spriteData.x += frameTime * SPEED;
     }
+	
 }

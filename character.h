@@ -15,7 +15,7 @@ namespace characterNS
     const int   EDGE_BOTTOM = 60;           // "   relative to center
     const int   EDGE_LEFT = -60;            // "
     const int   EDGE_RIGHT = 60;            // "
-    const float SPEED = 128;                 // pixels per second
+    const float SPEED = 256;                 // pixels per second
     enum DIRECTION {LEFT, RIGHT};           // direction
     const int   TEXTURE_COLS = 3;			// texture has 3 columns
 	const int FOREWARD_START_FRAME = 3;		//	animation starting frame
